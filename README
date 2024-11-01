@@ -1,0 +1,20 @@
+DEPENDENCIES
+============
+- PostgreSQL : apt-get install postgresql postgresql-contrib
+
+
+
+biblia/settings.py
+==================
+
+1 - Modify the SECRET_KEY in production environment by the following python[#1] command
+2 - Set the DEBUG to False in production 
+
+////
+SECRET_KEY = ''
+DEBUG = False
+////
+
+#1
+python -c 'from django.core.management.utils import get_random_secret_key; \
+      print(get_random_secret_key())'

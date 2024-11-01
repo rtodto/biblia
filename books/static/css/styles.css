@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+}
+.page-header {
+    background-color: rgb(165, 196, 167);
+
+}
+
+.page-header .container {
+
+}
+
+.book-detail {
+    border: 1px solid green;
+}
+
+.book-list {
+    
+}
+
+tr {
+    border: none;
+    background-color: azure;
+}
+
+.theadc {
+    background-color: sandybrown;
+    border-right: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.theadc:first-child {
+    border-left: 0.5px solid black;
+}
+
+.book-row {
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 300px;
+    border-right: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray; 
+
+}
+
+.book-row:first-child {
+    border-left: 0.5px solid lightgray;
+}

@@ -1,0 +1,8 @@
+{% extends 'books/base.html' %}
+
+{% block content %}
+<div class="book-detail">
+    <h1>{{ book.author }} : {{ book.title }} </h1>
+    {{book.summary | safe}}
+</div>
+{% endblock %}

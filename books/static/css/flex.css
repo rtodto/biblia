@@ -1,0 +1,131 @@
+/* Book List BEGIN*/
+.book-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.book-col {
+    display: flex;
+    flex: 1;
+    background-color: beige;
+    border-right: 0.5px solid black;
+    #border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.book-col:first-child {
+    border-left: 0.5px solid black;
+}
+
+.book-col:hover {
+    background-color: rgb(179, 196, 108);
+}
+
+
+.head-container {
+    display: flex;
+}
+
+.head-col {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: sandybrown;
+    border-right: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+ 
+
+}
+
+.head-col:first-child {
+    border-left: 0.5px solid black;
+}
+
+
+/*Book list END */
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* TOP HEADER BEGIN */
+.page-header {
+    display: flex;
+    flex: 1;
+    background-color: rgb(205, 224, 207);
+    align-items: center;
+    #justify-content: space-around;
+
+}
+
+#top-h1 {
+   
+   flex: 1;
+   text-align: center; 
+}
+
+
+/* TOP HEADER END */
+
+
+
+/* BOOK EDIT BEGIN */
+
+.book-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-detail {
+    border: 1px solid green;
+}
+
+.book-edit {
+    border: 1px solid black;   
+
+}
+
+td {
+    border: 0px solid black;
+    padding: 5px;
+    background-color: beige;
+}
+
+
+
+/*-----*/
+
+.theadc {
+    display: flex;
+    background-color: sandybrown;
+    border-right: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.theadc:first-child {
+    border-left: 0.5px solid black;
+}
+
+.book-row {
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 300px;
+    border-right: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray; 
+
+}
+
+.book-row:first-child {
+    border-left: 0.5px solid lightgray;
+}
+
+
+
+*/

@@ -1,0 +1,27 @@
+{% extends 'books/base.html' %}
+
+{% block content %}
+
+    
+    <div class="book-form-container">
+
+    <form method="POST" class="post-form">{% csrf_token %}
+        <table class="book-edit">
+        <tr><td>{{ form.author.label_tag}}</td><td>{{ form.author}}</td></tr>
+        <tr><td>{{ form.title.label_tag }} </td> <td>{{ form.title }}</td> </tr>
+        <tr><td>{{ form.owner.label_tag }} </td><td>{{ form.owner }}</td></tr>
+        <tr><td>{{ form.summary.label_tag }} </td><td> {{ form.summary }} </td></tr>
+        <tr><td>{{ form.temp_owner.label_tag }} </td> <td>{{ form.temp_owner }}</td></tr>
+        <tr><td>{{ form.is_read.label_tag }} </td> <td>{{ form.is_read }}</td></tr>
+        <tr><td>{{ form.quantity.label_tag }} </td> <td> {{ form.quantity }} </td> </tr>
+        <tr><td>{{ form.wish_list.label_tag }} </td> <td>{{ form.wish_list }}</td></tr>
+
+          
+    
+    
+        </table>
+        <button type="submit" class="save btn btn-secondary">Save</button>     
+    </form>
+    </div>
+
+{% endblock %}
